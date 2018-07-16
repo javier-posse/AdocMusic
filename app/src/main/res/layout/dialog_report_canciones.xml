@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:background="#2E2E2E"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tvReporte"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Elija motivo de reporte"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvReporte" />
+
+
+
+    <Button
+        android:id="@+id/btnEnviarReporteCancion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp"
+        android:layout_alignTop="@+id/spinner"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Enviar" />
+
+
+</RelativeLayout>

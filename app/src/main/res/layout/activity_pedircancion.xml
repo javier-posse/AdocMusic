@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:layout_gravity="center_vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de canción"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/etNombreCancion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de artista"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/etNombreArtista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enlace de youtube"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/etEnlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:id="@+id/tvErrorEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="@android:color/holo_red_dark"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/btnEnviarCancion"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:backgroundTint="@color/cardview_dark_background"/>
+
+
+
+
+</LinearLayout>

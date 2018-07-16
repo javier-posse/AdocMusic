@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reproducir vídeo automaticamente"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"/>
+
+        <Switch
+            android:id="@+id/swVidAut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:background="@android:color/darker_gray"
+        android:id="@+id/opcionFiltro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Seleccionar estilos"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/opcionReportBug"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Reportar error"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/opcionAcercaDe"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Sobre nosotros"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+
+
+
+</LinearLayout>

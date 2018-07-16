@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOBRE NOSOTROS"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Somos un grupo de alumnos del grado de Desarrollo de aplicaciones multiplataforma del IES Alonso de Avellaneda, y este es nuestro proyecto final. Más concretamente, esta aplicación y su api rest han sido desarrollados por Javier Posse López."
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+</LinearLayout>

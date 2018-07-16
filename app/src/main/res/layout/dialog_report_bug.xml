@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:background="#2E2E2E"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tvReporte"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Escriba motivo de reporte"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/tvReportBug"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:hint="Escriba aquí"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/tvReporte"/>
+
+
+    <Button
+        android:id="@+id/btnEnviarBug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/tvReportBug"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Enviar" />
+
+
+
+
+</RelativeLayout>

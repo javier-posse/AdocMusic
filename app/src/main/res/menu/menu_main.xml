@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bedelprojects.bedel.adocmusic.MainActivity">
+    <item
+        android:id="@+id/logOutOption"
+        android:orderInCategory="100"
+        android:title="Cerrar seisón"
+        />
+    <item
+        android:id="@+id/newSongOption"
+        android:orderInCategory="100"
+        android:title="Pedir canción"
+        />
+</menu>
